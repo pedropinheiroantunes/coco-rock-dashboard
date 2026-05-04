@@ -1,0 +1,8 @@
+# Apenas index.html no repo público
+*.xlsx
+*.json
+*.py
+*.bat
+*.txt
+__pycache__/
+.DS_Store

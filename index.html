@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Coco Rock | Raio-X Comercial — Maio 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<script type="application/json" id="dashboard-data">{"gerado_em": "04/05/2026 18:23", "periodo": {"inicio": "2024-06-17", "fim": "2026-05-04", "meses": 24}, "totais": {"receita_total": 2079481.65, "receita_oak": 1068957.07, "receita_nao_oak": 1010524.58, "pct_oak": 51.4, "pct_nao_oak": 48.6, "cancelamento_total": 171419.72, "taxa_canc_media_pct": 8.23, "clientes_unicos": 946, "clientes_oak": 397, "clientes_nao_oak": 549, "unidades_total": 139142}, "kpis": {"media_ult3_fechados": 130336.49, "media_ult6_fechados": 127754.28, "yoy_ytd": 100.4, "yoy_s2": 81.4, "meta_mensal": 1000000, "gap_meta": 869663.51, "pct_meta": 13.0, "multiplo_meta": 7.67}, "tendencia": {"ult1m_media": 150024.36, "ult3m_media": 130336.49, "ult6m_media": 127754.28, "ult12m_media": 115095.48, "ant12m_media": 63736.81, "total_ult12m": 1381145.77, "total_ant12m": 0.0, "delta_1_vs_3": 15.1, "delta_3_vs_6": 2.0, "delta_6_vs_12": 11.0, "delta_12_vs_ant": 80.6, "ult1m_label": "2026-04"}, "mensal": [{"mes": "2024-06", "nf": 28910.24, "canc": 1370.85, "taxa_canc": 4.7, "mm3": 28910.0}, {"mes": "2024-07", "nf": 70859.08, "canc": 5528.18, "taxa_canc": 7.8, "mm3": 49885.0}, {"mes": "2024-08", "nf": 62057.03, "canc": 652.2, "taxa_canc": 1.1, "mm3": 53942.0}, {"mes": "2024-09", "nf": 82957.6, "canc": 225.43, "taxa_canc": 0.3, "mm3": 71958.0}, {"mes": "2024-10", "nf": 65010.64, "canc": 6501.7, "taxa_canc": 10.0, "mm3": 70008.0}, {"mes": "2024-11", "nf": 55744.29, "canc": 0.0, "taxa_canc": 0.0, "mm3": 67904.0}, {"mes": "2024-12", "nf": 69928.88, "canc": 35302.8, "taxa_canc": 50.5, "mm3": 63561.0}, {"mes": "2025-01", "nf": 57787.380000000005, "canc": 58767.22, "taxa_canc": 101.7, "mm3": 61154.0}, {"mes": "2025-02", "nf": 73742.61, "canc": 2378.6, "taxa_canc": 3.2, "mm3": 67153.0}, {"mes": "2025-03", "nf": 72042.97, "canc": 3287.17, "taxa_canc": 4.6, "mm3": 67858.0}, {"mes": "2025-04", "nf": 62064.16, "canc": 388.0, "taxa_canc": 0.6, "mm3": 69283.0}, {"mes": "2025-05", "nf": 58932.81, "canc": 4810.8, "taxa_canc": 8.2, "mm3": 64347.0}, {"mes": "2025-06", "nf": 82909.09, "canc": 1474.0, "taxa_canc": 1.8, "mm3": 67969.0}, {"mes": "2025-07", "nf": 125232.98000000001, "canc": 2070.4, "taxa_canc": 1.7, "mm3": 89025.0}, {"mes": "2025-08", "nf": 109271.46, "canc": 11503.6, "taxa_canc": 10.5, "mm3": 105805.0}, {"mes": "2025-09", "nf": 103401.92, "canc": 2112.0, "taxa_canc": 2.0, "mm3": 112635.0}, {"mes": "2025-10", "nf": 134871.8, "canc": 10001.8, "taxa_canc": 7.4, "mm3": 115848.0}, {"mes": "2025-11", "nf": 107787.65, "canc": 700.0, "taxa_canc": 0.6, "mm3": 115354.0}, {"mes": "2025-12", "nf": 126436.7, "canc": 18106.1, "taxa_canc": 14.3, "mm3": 123032.0}, {"mes": "2026-01", "nf": 141291.89, "canc": 310.0, "taxa_canc": 0.2, "mm3": 125172.0}, {"mes": "2026-02", "nf": 105405.67, "canc": 2258.56, "taxa_canc": 2.1, "mm3": 124378.0}, {"mes": "2026-03", "nf": 135579.44, "canc": 3189.31, "taxa_canc": 2.4, "mm3": 127426.0}, {"mes": "2026-04", "nf": 150024.36, "canc": 481.0, "taxa_canc": 0.3, "mm3": 130336.0}, {"mes": "2026-05", "nf": 200.0, "canc": 0.0, "taxa_canc": 0.0, "mm3": 95268.0}], "oak_split": {"por_nome_receita": 993157.72, "por_nome_clientes": 380, "oculto_A_receita": 8202.44, "oculto_A_clientes": 8, "oculto_B_receita": 67596.91, "oculto_B_clientes": 9}, "top15_nao_oak": [{"cliente": "EMPORIUM UNIDADE II", "Quantidade": 4656.0, "receita": 126672.1, "preco_un": 27.20620704467354, "observacao": null, "ativo": true}, {"cliente": "Verdemar (BH)", "Quantidade": 10068.0, "receita": 67362.0, "preco_un": 6.690703218116806, "observacao": null, "ativo": true}, {"cliente": "Easy Ice", "Quantidade": 3750.0, "receita": 67200.0, "preco_un": 17.92, "observacao": null, "ativo": true}, {"cliente": "Irmãos Souza (Mercado Central/BH)", "Quantidade": 1929.0, "receita": 54012.0, "preco_un": 28.0, "observacao": null, "ativo": true}, {"cliente": "Irmãos Oliveira (Mercado Central/BH)", "Quantidade": 1722.0, "receita": 47472.0, "preco_un": 27.56794425087108, "observacao": null, "ativo": true}, {"cliente": "IRMAOS MATTAR & CIA LTDA", "Quantidade": 5616.0, "receita": 34694.4, "preco_un": 6.177777777777778, "observacao": {"status": "em risco", "motivo": "Farmacia indiana de Sao Paulo. Compra unica, sellout fraco — porta provavelmente fechada.", "acao": "Avaliar se vale realocar energia comercial; cliente nao esta sendo trabalhado em sellout."}, "ativo": false}, {"cliente": "MAGAZZINO DISTRIBUIDORA DE ALIMENTOS LTDA", "Quantidade": 924.0, "receita": 25872.0, "preco_un": 28.0, "observacao": null, "ativo": true}, {"cliente": "NECHIO INDUSTRIA E COMERCIO DE ALIMENTOS LTDA", "Quantidade": 840.0, "receita": 23268.0, "preco_un": 27.7, "observacao": null, "ativo": true}, {"cliente": "CASTANHAS GOMES", "Quantidade": 834.0, "receita": 23196.0, "preco_un": 27.81294964028777, "observacao": null, "ativo": true}, {"cliente": "ZE DO QUEIJO", "Quantidade": 789.0, "receita": 22092.0, "preco_un": 28.0, "observacao": null, "ativo": true}, {"cliente": "JUVENAL ALHOS E CEBOLAS LTDA", "Quantidade": 783.0, "receita": 21872.0, "preco_un": 27.933588761174967, "observacao": null, "ativo": true}, {"cliente": "LOURENCO DISTRIBUIDORA DE ALIMENTOS LTDA", "Quantidade": 7632.0, "receita": 20412.0, "preco_un": 2.6745283018867925, "observacao": null, "ativo": true}, {"cliente": "UNIDADEBENDITA - LDA", "Quantidade": 1544.0, "receita": 20092.8, "preco_un": 13.013471502590674, "observacao": {"status": "one-shot", "motivo": "Exportacao unica para Portugal. Parceiro de la mudou de ramo — nao havera recompra desse cliente.", "acao": "Excluir do ranking ativo. Hipotese de exportacao para PT continua valida com outro parceiro (produto tem vocacao)."}, "ativo": false}, {"cliente": "DROGARIA ARAUJO S A", "Quantidade": 5712.0, "receita": 17774.4, "preco_un": 3.111764705882353, "observacao": null, "ativo": true}, {"cliente": "JF FOODSERVICE (COMFRIO)", "Quantidade": 5760.0, "receita": 17280.0, "preco_un": 3.0, "observacao": {"status": "one-shot", "motivo": "Vendia para a Boali (rede de franquias que nao virou). Produto nao performou bem.", "acao": "Nao deve haver recompra no curto prazo. Excluir do mid-tier ativo."}, "ativo": false}], "top15_ativo": [{"cliente": "EMPORIUM UNIDADE II", "Quantidade": 4656.0, "receita": 126672.1, "preco_un": 27.20620704467354}, {"cliente": "Verdemar (BH)", "Quantidade": 10068.0, "receita": 67362.0, "preco_un": 6.690703218116806}, {"cliente": "Easy Ice", "Quantidade": 3750.0, "receita": 67200.0, "preco_un": 17.92}, {"cliente": "Irmãos Souza (Mercado Central/BH)", "Quantidade": 1929.0, "receita": 54012.0, "preco_un": 28.0}, {"cliente": "Irmãos Oliveira (Mercado Central/BH)", "Quantidade": 1722.0, "receita": 47472.0, "preco_un": 27.56794425087108}, {"cliente": "MAGAZZINO DISTRIBUIDORA DE ALIMENTOS LTDA", "Quantidade": 924.0, "receita": 25872.0, "preco_un": 28.0}, {"cliente": "NECHIO INDUSTRIA E COMERCIO DE ALIMENTOS LTDA", "Quantidade": 840.0, "receita": 23268.0, "preco_un": 27.7}, {"cliente": "CASTANHAS GOMES", "Quantidade": 834.0, "receita": 23196.0, "preco_un": 27.81294964028777}, {"cliente": "ZE DO QUEIJO", "Quantidade": 789.0, "receita": 22092.0, "preco_un": 28.0}, {"cliente": "JUVENAL ALHOS E CEBOLAS LTDA", "Quantidade": 783.0, "receita": 21872.0, "preco_un": 27.933588761174967}, {"cliente": "LOURENCO DISTRIBUIDORA DE ALIMENTOS LTDA", "Quantidade": 7632.0, "receita": 20412.0, "preco_un": 2.6745283018867925}, {"cliente": "DROGARIA ARAUJO S A", "Quantidade": 5712.0, "receita": 17774.4, "preco_un": 3.111764705882353}, {"cliente": "Wave Imports LTDA", "Quantidade": 1152.0, "receita": 15571.2, "preco_un": 13.516666666666667}, {"cliente": "DISTRIBUIDORA SUPPORT SPORTS", "Quantidade": 636.0, "receita": 14985.86, "preco_un": 23.562672955974843}, {"cliente": "MIRASOL COPACABANA HOTEL LTDA", "Quantidade": 4225.0, "receita": 14285.55, "preco_un": 3.381195266272189}], "inativos": {"count": 3, "receita": 72067.2, "pct_total": 3.47, "detalhe": [{"cliente": "IRMAOS MATTAR & CIA LTDA", "receita": 34694.4, "observacao": {"status": "em risco", "motivo": "Farmacia indiana de Sao Paulo. Compra unica, sellout fraco — porta provavelmente fechada.", "acao": "Avaliar se vale realocar energia comercial; cliente nao esta sendo trabalhado em sellout."}}, {"cliente": "UNIDADEBENDITA - LDA", "receita": 20092.8, "observacao": {"status": "one-shot", "motivo": "Exportacao unica para Portugal. Parceiro de la mudou de ramo — nao havera recompra desse cliente.", "acao": "Excluir do ranking ativo. Hipotese de exportacao para PT continua valida com outro parceiro (produto tem vocacao)."}}, {"cliente": "JF FOODSERVICE (COMFRIO)", "receita": 17280.0, "observacao": {"status": "one-shot", "motivo": "Vendia para a Boali (rede de franquias que nao virou). Produto nao performou bem.", "acao": "Nao deve haver recompra no curto prazo. Excluir do mid-tier ativo."}}]}, "top30_concentracao": [{"cliente": "EMPORIUM UNIDADE II", "receita": 126672.1, "origem": "Mid-tier não-OAK"}, {"cliente": "Verdemar (BH)", "receita": 67362.0, "origem": "Mid-tier não-OAK"}, {"cliente": "Easy Ice", "receita": 67200.0, "origem": "Mid-tier não-OAK"}, {"cliente": "Irmãos Souza (Mercado Central/BH)", "receita": 54012.0, "origem": "Mid-tier não-OAK"}, {"cliente": "Irmãos Oliveira (Mercado Central/BH)", "receita": 47472.0, "origem": "Mid-tier não-OAK"}, {"cliente": "OAK- Franqueadora", "receita": 47291.06, "origem": "OAK consolidado"}, {"cliente": "IRMAOS MATTAR & CIA LTDA", "receita": 34694.4, "origem": "Mid-tier não-OAK"}, {"cliente": "MAGAZZINO DISTRIBUIDORA DE ALIMENTOS LTDA", "receita": 25872.0, "origem": "Mid-tier não-OAK"}, {"cliente": "NECHIO INDUSTRIA E COMERCIO DE ALIMENTOS LTDA", "receita": 23268.0, "origem": "Mid-tier não-OAK"}, {"cliente": "CASTANHAS GOMES", "receita": 23196.0, "origem": "Mid-tier não-OAK"}, {"cliente": "ZE DO QUEIJO", "receita": 22092.0, "origem": "Mid-tier não-OAK"}, {"cliente": "JUVENAL ALHOS E CEBOLAS LTDA", "receita": 21872.0, "origem": "Mid-tier não-OAK"}, {"cliente": "LOURENCO DISTRIBUIDORA DE ALIMENTOS LTDA", "receita": 20412.0, "origem": "Mid-tier não-OAK"}, {"cliente": "Goober EXPPLY", "receita": 20390.4, "origem": "OAK consolidado"}, {"cliente": "UNIDADEBENDITA - LDA", "receita": 20092.8, "origem": "Mid-tier não-OAK"}, {"cliente": "DROGARIA ARAUJO S A", "receita": 17774.4, "origem": "Mid-tier não-OAK"}, {"cliente": "JF FOODSERVICE (COMFRIO)", "receita": 17280.0, "origem": "Mid-tier não-OAK"}, {"cliente": "ARMAZEM CENTRAL SAVASSI", "receita": 15752.45, "origem": "OAK consolidado"}, {"cliente": "Wave Imports LTDA", "receita": 15571.2, "origem": "Mid-tier não-OAK"}, {"cliente": "DISTRIBUIDORA SUPPORT SPORTS", "receita": 14985.86, "origem": "Mid-tier não-OAK"}, {"cliente": "MIRASOL COPACABANA HOTEL LTDA", "receita": 14285.55, "origem": "Mid-tier não-OAK"}, {"cliente": "NOBRE VERDE PRODUTOS NATURAIS", "receita": 13395.0, "origem": "Mid-tier não-OAK"}, {"cliente": "OAK - Mooca Fabbrica", "receita": 13263.0, "origem": "OAK consolidado"}, {"cliente": "Aya Live Marketing Ltda", "receita": 11915.5, "origem": "Mid-tier não-OAK"}, {"cliente": "OAKBERRY - Bondinho", "receita": 11812.01, "origem": "OAK consolidado"}, {"cliente": "OAK - RONDONOPOLIS", "receita": 11270.14, "origem": "OAK consolidado"}, {"cliente": "Palácio das Castanhas", "receita": 10941.0, "origem": "Mid-tier não-OAK"}, {"cliente": "OAKBERRY - Jardim Irajá", "receita": 10726.0, "origem": "OAK consolidado"}, {"cliente": "ARMAZEM CENTRAL MINASCENTRO (Mercado Central/BH)", "receita": 10685.0, "origem": "OAK consolidado"}, {"cliente": "OAK - Max", "receita": 10572.0, "origem": "OAK consolidado"}], "cluster_mc_bh": {"clientes": 6, "receita": 240356.67, "pct_total": 11.56, "pct_nao_oak": 23.79, "detalhe": [{"cliente": "EMPORIUM UNIDADE II", "Quantidade": 4656.0, "receita": 126672.1, "preco_un": 27.20620704467354}, {"cliente": "Irmãos Souza (Mercado Central/BH)", "Quantidade": 1929.0, "receita": 54012.0, "preco_un": 28.0}, {"cliente": "Irmãos Oliveira (Mercado Central/BH)", "Quantidade": 1722.0, "receita": 47472.0, "preco_un": 27.56794425087108}, {"cliente": "Império dos Cocos (Mercado Central/BH)", "Quantidade": 354.0, "receita": 9897.0, "preco_un": 27.95762711864407}, {"cliente": "ARMAZEM CENTRAL (Mercado Central/BH)", "Quantidade": 60.0, "receita": 1356.9, "preco_un": 22.615000000000002}, {"cliente": "CASTANHAS GOMES (MERCADO CENTRAL)", "Quantidade": 40.0, "receita": 946.67, "preco_un": 23.66675}]}, "long_tail": {"total_nao_oak": 549, "abaixo_1k": 455, "pct_abaixo_1k": 82.9, "abaixo_5k": 515, "pct_abaixo_5k": 93.8, "acima_10k": 21, "acima_20k": 13, "acima_50k": 4, "n50pct": 11, "n80pct": 43}}</script>
+<style>
+:root{
+  /* Paleta oficial Brand Book Coco Rock (Original = verde) */
+  --brand-green:#91A93E;       /* ORIGINAL — cor principal */
+  --brand-green-light:#B0C660; /* ORIGINAL claro */
+  --brand-green-dark:#6B7E2D;  /* derivado para hover */
+  --brand-green-tint:#e8eccf;  /* tint suave para fundos */
+  --brand-gengibre:#D78600;    /* GENGIBRE — acento cálido */
+  --brand-gengibre-light:#F3BD74;
+  --brand-cacau:#99381A;       /* CACAU — alerta / risco */
+  --brand-cacau-light:#B2846B;
+  --brand-cafe:#864C24;        /* CAFÉ — texto/dark elegante */
+  --brand-cafe-light:#C8A48E;
+  --brand-husk:#E4CCAA;        /* tom HUSK */
+  --brand-coco:#D3C6B9;        /* tom COCO */
+  --brand-pulp:#E1D6B6;        /* tom PULP */
+  --brand-milk:#F5F2EC;        /* fundo creme principal */
+  --brand-dark:#2A2520;        /* preto orgânico (não puro) */
+
+  --gray-50:#f9f7f3;
+  --gray-100:#eee9df;
+  --gray-200:#ddd5c5;
+  --gray-400:#9d958a;
+  --gray-600:#5a544c;
+  --gray-800:#2e2a25;
+  --shadow-sm:0 1px 2px rgba(42,37,32,.06);
+  --shadow-md:0 6px 22px rgba(42,37,32,.10);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+html,body{margin:0;padding:0;background:var(--brand-milk);color:var(--brand-cafe);font-family:'Avenir Next','Avenir LT Std',Avenir,'Helvetica Neue',Ubuntu,system-ui,-apple-system,sans-serif;font-feature-settings:"ss01","ss02";line-height:1.45;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{background-image:radial-gradient(at 0% 0%, rgba(145,169,62,.04) 0%, transparent 40%), radial-gradient(at 100% 100%, rgba(134,76,36,.04) 0%, transparent 50%);background-attachment:fixed}
+.container{max-width:1280px;margin:0 auto;padding:24px 32px 80px}
+@media (max-width:900px){.container{padding:16px 18px 60px}}
+.skeleton{display:none}
+body.loading .skeleton{display:block}
+body.loading .real-content{opacity:.3;pointer-events:none}
+.real-content{transition:opacity .25s ease}
+header.hero{display:flex;align-items:center;gap:24px;padding:18px 0 28px;border-bottom:2px solid var(--brand-dark);flex-wrap:wrap}
+header.hero .logo-wrap{width:140px;flex:0 0 140px}
+header.hero img{width:100%;height:auto;display:block}
+.hero-text{flex:1 1 320px;min-width:0}
+.hero-text h1{margin:0;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--gray-600);font-weight:600}
+.hero-text h2{margin:4px 0 6px;font-size:30px;font-weight:800;letter-spacing:-.02em;color:var(--brand-cafe);line-height:1.15}
+.hero-text h2 .highlight{color:var(--brand-green)}
+.hero-text p{margin:0;color:var(--gray-600);font-size:14px;max-width:780px}
+.hero-meta{margin-left:auto;text-align:right;font-size:12px;color:var(--gray-600);flex:0 0 auto}
+.hero-meta b{color:var(--brand-green);display:block;font-size:14px;letter-spacing:.5px}
+@media (max-width:900px){
+  header.hero{gap:14px;padding:14px 0 20px}
+  header.hero .logo-wrap{width:90px;flex:0 0 90px}
+  .hero-text h2{font-size:22px}
+  .hero-meta{display:none}
+}
+
+/* Section intro */
+section{margin-top:56px;scroll-margin-top:24px}
+.section-tag{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--brand-green);font-weight:700}
+.section-tag::before{content:"";width:18px;height:2px;background:var(--brand-green)}
+section h3{margin:6px 0 4px;font-size:24px;font-weight:800;letter-spacing:-.01em}
+section h3 .accent{color:var(--brand-green)}
+section .lede{margin:0 0 22px;color:var(--gray-600);font-size:14.5px;max-width:880px}
+
+/* Grid */
+.grid{display:grid;gap:18px}
+.g-2{grid-template-columns:1fr 1fr}
+.g-3{grid-template-columns:repeat(3,1fr)}
+.g-4{grid-template-columns:repeat(4,1fr)}
+.g-2-1{grid-template-columns:2fr 1fr}
+.g-1-2{grid-template-columns:1fr 2fr}
+@media (max-width:900px){.g-2,.g-3,.g-4,.g-2-1,.g-1-2{grid-template-columns:1fr}}
+
+.card{background:#fff;border:1px solid var(--gray-200);border-radius:12px;padding:20px;box-shadow:var(--shadow-sm);transition:transform .15s ease, box-shadow .15s ease}
+.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.card.dark{background:var(--brand-cafe);color:#fff;border-color:var(--brand-cafe)}
+.card.brand{background:var(--brand-green);color:#fff;border-color:var(--brand-green)}
+.card.warn{background:var(--brand-husk);color:var(--brand-cafe);border-color:var(--brand-husk)}
+.card.alert{background:var(--brand-cacau);color:#fff;border-color:var(--brand-cacau)}
+.card.no-hover:hover{transform:none;box-shadow:var(--shadow-sm)}
+.card.dark h4{color:rgba(255,255,255,.8)}
+.card.alert h4{color:rgba(255,255,255,.85)}
+.card.warn h4{color:var(--brand-cacau)}
+.card h4{margin:0 0 4px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gray-600);font-weight:700}
+.card.dark h4,.card.brand h4{color:rgba(255,255,255,.75)}
+.card .big{font-size:30px;font-weight:800;letter-spacing:-.02em;line-height:1.05;margin:6px 0 4px}
+.card .sub{font-size:13px;color:var(--gray-600)}
+.card.dark .sub,.card.brand .sub{color:rgba(255,255,255,.78)}
+.card .delta{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--gray-100);color:var(--gray-800)}
+.delta.up{background:var(--brand-green-tint);color:var(--brand-green-dark)}
+.delta.down{background:#f3d8cf;color:var(--brand-cacau)}
+.delta.warn{background:var(--brand-husk);color:var(--brand-cafe)}
+
+/* Chart container */
+.chart-card{padding:18px}
+.chart-card h4.title{font-size:14px;letter-spacing:0;text-transform:none;color:var(--brand-dark);font-weight:700;margin-bottom:6px}
+.chart-card .sub{font-size:12.5px;color:var(--gray-600);margin-bottom:10px}
+.chart-wrap{position:relative;height:320px}
+.chart-wrap.tall{height:420px}
+
+/* Tese (executive bar) */
+.tese{position:relative;background:linear-gradient(135deg, var(--brand-cafe) 0%, #5d3416 100%);color:#fff;border-radius:14px;padding:28px 32px;overflow:hidden}
+.tese::after{content:"";position:absolute;top:-30px;right:-30px;width:280px;height:280px;background:radial-gradient(circle, rgba(145,169,62,.18), transparent 60%);pointer-events:none}
+.tese .label{font-size:11px;letter-spacing:3px;color:var(--brand-green);font-weight:700;text-transform:uppercase}
+.tese h2{margin:8px 0 14px;font-size:26px;font-weight:800;letter-spacing:-.01em;line-height:1.2;max-width:920px}
+.tese p{margin:0;color:rgba(255,255,255,.78);max-width:860px;font-size:14.5px}
+.tese .pillars{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tese .pillars div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:14px}
+.tese .pillars span{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--brand-green);font-weight:700;display:block;margin-bottom:4px}
+.tese .pillars b{font-size:14px;font-weight:700;color:#fff;display:block;line-height:1.35}
+@media (max-width:900px){.tese .pillars{grid-template-columns:1fr}}
+
+/* Tables */
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--gray-100)}
+th{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--gray-600);font-weight:700}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr.oak td{color:var(--brand-green-dark);font-weight:600}
+tr.highlight td{background:var(--brand-green-tint)}
+.pill{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--gray-100);color:var(--gray-800)}
+.pill.oak{background:var(--brand-green-tint);color:var(--brand-green-dark)}
+.pill.midtier{background:var(--brand-coco);color:var(--brand-cafe)}
+.pill.midtier-bh{background:var(--brand-gengibre-light);color:var(--brand-cafe)}
+
+/* Provocations */
+.prov{background:#fff;border-left:4px solid var(--brand-green);border-radius:8px;padding:16px 20px;margin-bottom:14px;box-shadow:var(--shadow-sm);transition:transform .15s ease}
+.prov:hover{transform:translateX(2px)}
+.prov .q{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--brand-green-dark);font-weight:700;margin-bottom:4px}
+.prov h5{margin:0 0 6px;font-size:16px;font-weight:700;color:var(--brand-cafe)}
+.prov p{margin:0;color:var(--gray-600);font-size:14px}
+.prov.red{border-left-color:var(--brand-cacau);background:#fff7f1}
+.prov.red .q{color:var(--brand-cacau)}
+.prov.red h5{color:var(--brand-cacau)}
+
+/* Strategic frame */
+.frame-row{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:start;padding:20px 0;border-bottom:1px dashed var(--gray-200)}
+.frame-row:last-child{border-bottom:0}
+.frame-row .horizon{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--brand-green);font-weight:700;padding-top:4px}
+.frame-row .horizon b{display:block;font-size:18px;color:var(--brand-dark);letter-spacing:-.01em;margin-top:4px}
+.frame-row h6{margin:0 0 6px;font-size:16px;font-weight:700}
+.frame-row p{margin:0;font-size:13.5px;color:var(--gray-600);line-height:1.5}
+.frame-row .metric{display:inline-block;background:var(--gray-50);border:1px solid var(--gray-200);border-radius:8px;padding:6px 12px;font-size:12px;font-weight:600;margin-top:8px;color:var(--gray-800)}
+
+/* Trend stack */
+.trend-stack{display:grid;grid-template-columns:1fr 28px 1fr 28px 1fr 28px 1fr 28px 1fr;gap:8px;align-items:stretch;margin-top:8px}
+.trend-card{background:#fff;border:1px solid var(--gray-200);border-radius:12px;padding:14px 12px;display:flex;flex-direction:column;justify-content:space-between;text-align:center;box-shadow:var(--shadow-sm)}
+.trend-card.outline{background:transparent;border:1px dashed var(--gray-200);box-shadow:none}
+.trend-card .trend-label{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gray-600);font-weight:700}
+.trend-card .trend-value{font-size:22px;font-weight:800;letter-spacing:-.02em;color:var(--brand-cafe);margin:6px 0 4px}
+.trend-card .trend-period{font-size:11px;color:var(--gray-600)}
+.trend-arrow{display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;color:var(--gray-400)}
+.trend-arrow.up{color:var(--brand-green-dark)}
+.trend-arrow.down{color:var(--brand-cacau)}
+.trend-arrow.flat{color:var(--gray-400)}
+.trend-card.highlight{background:var(--brand-green-tint);border-color:var(--brand-green)}
+.trend-card.highlight .trend-value{color:var(--brand-green-dark)}
+.trend-card.warn{background:#fff7ee;border-color:var(--brand-gengibre)}
+.trend-card.warn .trend-value{color:var(--brand-gengibre)}
+.trend-card.alert{background:#f9e6e0;border-color:var(--brand-cacau)}
+.trend-card.alert .trend-value{color:var(--brand-cacau)}
+@media (max-width:900px){
+  .trend-stack{grid-template-columns:1fr;gap:6px}
+  .trend-arrow{transform:rotate(90deg);height:18px}
+}
+
+/* Inativos / observacoes */
+.obs-pill{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:999px;letter-spacing:.5px;text-transform:uppercase;margin-left:4px}
+.obs-pill.oneshot{background:var(--brand-husk);color:var(--brand-cafe)}
+.obs-pill.risk{background:#f9e6e0;color:var(--brand-cacau)}
+tr.inactive td{opacity:.7;text-decoration:line-through;text-decoration-color:var(--brand-cacau);text-decoration-thickness:1px}
+tr.inactive td:last-child,tr.inactive td:first-child{text-decoration:none}
+
+.inativos-callout{background:#fff7ee;border:1px solid var(--brand-gengibre);border-radius:10px;padding:14px 18px;margin-top:14px}
+.inativos-callout h5{margin:0 0 8px;font-size:14px;color:var(--brand-cafe);font-weight:700}
+.inativos-callout ul{margin:0;padding-left:18px;font-size:13px;color:var(--gray-600);line-height:1.55}
+.inativos-callout ul li{margin-bottom:6px}
+.inativos-callout strong{color:var(--brand-cafe)}
+
+/* Footer */
+footer{margin-top:80px;padding-top:24px;border-top:1px solid var(--gray-200);font-size:12px;color:var(--gray-600);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer .raio{height:24px;width:auto;opacity:.6}
+
+/* Loading overlay */
+.loading-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:var(--brand-milk);display:none;align-items:center;justify-content:center;z-index:9999;flex-direction:column;gap:14px}
+body.loading .loading-overlay{display:flex}
+.loading-overlay .spinner{width:36px;height:36px;border:3px solid var(--gray-200);border-top-color:var(--brand-green);border-radius:50%;animation:spin 0.9s linear infinite}
+.loading-overlay span{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gray-600);font-weight:600}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Print styles */
+@media print{
+  body{background:#fff;color:#000}
+  .nav, .loading-overlay, footer .raio{display:none !important}
+  .container{max-width:none;padding:8mm 10mm}
+  section{break-inside:avoid;page-break-inside:avoid;margin-top:24px}
+  .tese{break-after:page}
+  .card:hover{transform:none;box-shadow:none}
+  .chart-wrap{height:240px}
+  .chart-wrap.tall{height:300px}
+  .prov{break-inside:avoid}
+  header.hero{border-bottom:1px solid #000}
+  .hero-meta{display:block !important}
+}
+
+/* Anchor nav */
+.nav{position:sticky;top:0;background:rgba(250,246,242,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:50;margin:0 -32px;padding:10px 32px;border-bottom:1px solid var(--gray-200);font-size:12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+.nav a{color:var(--gray-600);text-decoration:none;font-weight:600;letter-spacing:.5px;white-space:nowrap;padding:4px 0;border-bottom:2px solid transparent;transition:color .15s ease, border-color .15s ease}
+.nav a:hover, .nav a.active{color:var(--brand-green);border-bottom-color:var(--brand-green)}
+.nav .toggle{margin-left:auto;display:inline-flex;gap:0;border:1px solid var(--gray-200);border-radius:999px;background:#fff;padding:2px;font-size:11px;flex-shrink:0}
+.nav .toggle button{appearance:none;border:0;background:transparent;color:var(--gray-600);padding:5px 12px;cursor:pointer;font-weight:600;letter-spacing:.5px;border-radius:999px;font-size:11px;font-family:inherit}
+.nav .toggle button.on{background:var(--brand-green);color:#fff}
+@media (max-width:900px){
+  .nav{margin:0 -18px;padding:10px 18px}
+  .nav ul{gap:14px;font-size:11px}
+}
+
+/* Note */
+.note{font-size:12px;color:var(--gray-600);background:var(--gray-50);border:1px dashed var(--gray-200);border-radius:8px;padding:10px 14px;margin-top:12px}
+
+</style>
+</head>
+<body class="loading">
+<div class="loading-overlay"><div class="spinner"></div><span>Carregando dados…</span></div>
+<div class="container real-content">
+
+<header class="hero">
+  <div class="logo-wrap"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNS4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA3OTIgNjEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA3OTIgNjEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojRkY2OTIyO30NCgkuc3Qxe2ZpbGw6IzIyMUYyMDt9DQoJLnN0MntmaWxsOiM5MUE5M0U7fQ0KCS5zdDN7ZmlsbDojRTIwNjEzO30NCjwvc3R5bGU+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTU5Mi40LDMxNC4ybC0yMS4yLTE3LjRsLTQ0LjYsNTYuMXYtNTUuM2MtMTAuNS0yLjktMTkuOS04LjMtMjcuNy0xNS40djE1MGw1Mi4xLTY1LjRsMzAsMzcuM2wyMS4xLTE3LjYNCgkJCWwtMzMuNS00Mkw1OTIuNCwzMTQuMnoiLz4NCgkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTI0NC44LDIwNy41Yy0xMy44LDAtMjQuNywxMS4xLTI0LjcsMjQuOXMxMC45LDI0LjcsMjQuNywyNC43YzYuOCwwLDEyLjYtMi41LDE3LjktNy41bDE5LjEsMjAuMQ0KCQkJYy05LDktMjIuNiwxNS4xLTM3LDE1LjFjLTI5LDAtNTIuNC0yMy42LTUyLjQtNTIuNmMwLTI5LDIzLjQtNTIuNCw1Mi40LTUyLjRjMTQuNCwwLDI2LjQsNS4zLDM3LDE1LjFMMjYyLjcsMjE1DQoJCQlDMjU3LjIsMjEwLDI1MS42LDIwNy41LDI0NC44LDIwNy41eiIvPg0KCQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNTk5LjcsMjMyLjRjMCwyOS0yMy42LDUyLjQtNTIuNiw1Mi40Yy0yOSwwLTUyLjQtMjMuNC01Mi40LTUyLjRzMjMuNC01Mi42LDUyLjQtNTIuNg0KCQkJQzU3Ni4xLDE3OS44LDU5OS43LDIwMy40LDU5OS43LDIzMi40eiBNNTIyLjQsMjMyLjRjMCwxMy44LDEwLjksMjQuNywyNC43LDI0LjdzMjQuOS0xMC45LDI0LjktMjQuN3MtMTEuMS0yNC45LTI0LjktMjQuOQ0KCQkJUzUyMi40LDIxOC43LDUyMi40LDIzMi40eiIvPg0KCQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNMzQ0LDI4NC41bDQxLjMtMjguOGMzLjUtNyw1LjQtMTQuOSw1LjQtMjMuMmMwLTI5LTIzLjYtNTIuNi01Mi42LTUyLjZjLTI5LDAtNTIuNCwyMy42LTUyLjQsNTIuNg0KCQkJczIzLjQsNTIuNCw1Mi40LDUyLjRDMzQwLjEsMjg0LjgsMzQyLjEsMjg0LjcsMzQ0LDI4NC41eiBNMzEzLjQsMjMyLjRjMC0xMy44LDEwLjktMjQuOSwyNC43LTI0LjljMTMuOCwwLDI0LjksMTEuMSwyNC45LDI0LjkNCgkJCXMtMTEuMSwyNC43LTI0LjksMjQuN0MzMjQuNCwyNTcuMSwzMTMuNCwyNDYuMiwzMTMuNCwyMzIuNHoiLz4NCgkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTM1MC43LDM3MC45TDM1MC43LDM3MC45QzM1MC43LDM3MC45LDM1MC43LDM3MC45LDM1MC43LDM3MC45Yy0yLDEuNS00LjEsMi42LTYuNSwzLjUNCgkJCWMtMC4yLDAuMS0wLjQsMC4yLTAuNiwwLjJjLTAuNCwwLjEtMC44LDAuMi0xLjIsMC40Yy0wLjMsMC4xLTAuNywwLjItMSwwLjNjLTAuNCwwLjEtMC43LDAuMi0xLjEsMC4yYy0wLjUsMC4xLTAuOSwwLjEtMS40LDAuMg0KCQkJYy0wLjMsMC0wLjYsMC4xLTAuOSwwLjFjLTAuOCwwLjEtMS41LDAuMS0yLjMsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwYy0wLjgsMC0xLjYsMC0yLjMtMC4xYy0wLjUsMC0xLTAuMS0xLjQtMC4yDQoJCQljLTAuMiwwLTAuNS0wLjEtMC43LTAuMWMtMC42LTAuMS0xLjItMC4zLTEuOS0wLjRjLTAuMSwwLTAuMSwwLTAuMiwwYy0xMC41LTIuOC0xOC4yLTEyLjMtMTguMi0yMy44YzAtMTMuOCwxMC45LTI0LjksMjQuNy0yNC45DQoJCQljNiwwLDExLjUsMi4xLDE1LjgsNS42bDEzLjgtMjQuMmMtOC40LTUuOC0xOC42LTkuMS0yOS42LTkuMWMtMjksMC01Mi40LDIzLjYtNTIuNCw1Mi42YzAsMjksMjMuNCw1Mi40LDUyLjQsNTIuNA0KCQkJYzI5LDAsNTIuNi0yMy40LDUyLjYtNTIuNGMwLTIuMS0wLjEtNC4yLTAuNC02LjNMMzUwLjcsMzcwLjl6Ii8+DQoJCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00NTEuMywzNzUuOWMtMTMuOCwwLTI0LjctMTAuOS0yNC43LTI0LjdzMTAuOS0yNC45LDI0LjctMjQuOWM2LjgsMCwxMi40LDIuNSwxNy45LDcuNWwxOS4xLTIwLjENCgkJCWMtOS45LTkuMi0yMS0xNC40LTM0LjItMTVsLTUyLjksMzdjLTEuNSw0LjktMi4zLDEwLTIuMywxNS40YzAsMjksMjMuNCw1Mi42LDUyLjQsNTIuNmMxNC40LDAsMjgtNi4xLDM3LTE1LjFsLTE5LjEtMjAuMQ0KCQkJQzQ2My45LDM3My40LDQ1OC4xLDM3NS45LDQ1MS4zLDM3NS45eiIvPg0KCQk8Zz4NCgkJCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00MzAuNCwyMjQuMWMzLjQtOS43LDEyLjQtMTYuNiwyMy4zLTE2LjZjMC4xLDAsMC4yLDAsMC40LDB2MGMwLjEsMCwwLjIsMCwwLjMsMGMwLjksMCwxLjgsMC4xLDIuNywwLjINCgkJCQljMC4zLDAsMC42LDAuMSwwLjksMC4xYzAuNCwwLjEsMC44LDAuMSwxLjIsMC4yYzAuMywwLjEsMC42LDAuMSwwLjksMC4yYzAuNiwwLjIsMS4yLDAuMywxLjgsMC41YzAuMywwLjEsMC42LDAuMiwxLDAuMw0KCQkJCWMwLjMsMC4xLDAuNywwLjMsMSwwLjRjMC4zLDAuMSwwLjYsMC4zLDAuOSwwLjRjMC4zLDAuMiwwLjYsMC4zLDEsMC41YzAuNSwwLjMsMS4xLDAuNiwxLjYsMXYwYzEuNSwxLDIuOSwyLjEsNC40LDMuNGwxOS4xLTIwLjENCgkJCQljLTEwLjYtOS44LTIyLjYtMTUuMS0zNy0xNS4xYy0yOSwwLTUyLjQsMjMuNC01Mi40LDUyLjRjMCwzLjksMC40LDcuNywxLjIsMTEuM0w0MzAuNCwyMjQuMXoiLz4NCgkJCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00NTMuNywyNTcuMWMtNCwwLTcuNy0wLjktMTEtMi42bC0xMy44LDI0YzcuNCw0LDE1LjgsNi4yLDI0LjgsNi4yYzE0LjQsMCwyOC02LjEsMzctMTUuMWwtMTkuMS0yMC4xDQoJCQkJQzQ2Ni4zLDI1NC43LDQ2MC41LDI1Ny4xLDQ1My43LDI1Ny4xeiIvPg0KCQk8L2c+DQoJCTxnPg0KCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQ1OS44LDIwOC4zYy0wLjEsMC0wLjItMC4xLTAuMy0wLjFsMCwwQzQ1OS42LDIwOC4zLDQ1OS43LDIwOC4zLDQ1OS44LDIwOC4zeiIvPg0KCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQ2MS43LDIwOC45YzAuMSwwLDAuMSwwLjEsMC4yLDAuMUM0NjEuOCwyMDguOSw0NjEuOCwyMDguOSw0NjEuNywyMDguOXoiLz4NCgkJCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iNDE2LDI4Ni41IDQ1Ny40LDIxNC4xIDM1MC4zLDI4OSAzNzguNywyOTkgMzM3LjMsMzcxLjQgNDQ0LjQsMjk2LjYgCQkJIi8+DQoJCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzMzLjQsMzc1LjhjLTAuNCwwLTAuOC0wLjEtMS4yLTAuMkMzMzIuNiwzNzUuNywzMzMsMzc1LjgsMzMzLjQsMzc1Ljh6Ii8+DQoJCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzMwLjgsMzc1LjRMMzMwLjgsMzc1LjRjMC4xLDAuMSwwLjIsMC4xLDAuNCwwLjFDMzMxLjEsMzc1LjUsMzMwLjksMzc1LjQsMzMwLjgsMzc1LjR6Ii8+DQoJCTwvZz4NCgkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTI4NiwzODYuOGwtMjAuNy0yNS45YzEuMi0wLjksMi40LTEuOSwzLjQtM2MzLjEtMy4yLDUuNi02LjgsNy4zLTExYzEuOC00LjIsMi42LTguNywyLjYtMTMuNA0KCQkJYzAtNC44LTAuOS05LjQtMi42LTEzLjVjLTEuOC00LjItNC4yLTcuOC03LjMtMTFjLTMuMS0zLjEtNi43LTUuNi0xMC45LTcuNGMtNC4yLTEuOC04LjctMi43LTEzLjctMi43aC02LjdjLTEuNywwLTMuOCwwLTYuNSwwDQoJCQljLTIuNiwwLTUuOSwwLTkuNy0wLjFjLTMuOCwwLTguMy0wLjEtMTMuNS0wLjFjLTUuMiwwLTExLjEsMC0xNy45LDB2MTAwLjhoMjcuNnYtMzEuNWgxOC4ybDI5LjIsMzYuM0wyODYsMzg2Ljh6IE0yMTcuNSwzMjMuNw0KCQkJaDIxLjljNC4xLDAsNy40LDEuMSw5LjcsMy4yYzIuMywyLjEsMy41LDUuMywzLjUsOS41YzAsMy43LTEuMSw2LjctMy40LDljLTIuMywyLjMtNS40LDMuNC05LjQsMy40bC0yMi4zLDAuMVYzMjMuN3oiLz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4NCg==" alt="Coco Rock" /></div>
+  <div class="hero-text">
+    <h1>Raio-X Comercial · Maio 2026</h1>
+    <h2>De âncora única para <span class="highlight">motor multi-canal</span></h2>
+    <p>Análise consolidada das bases <b>Faturamento</b>, <b>Pedidos por Cliente</b> e <b>Cancelamentos</b> (Omie ERP), aplicando regra de identificação de pedidos Oakberry ocultos e frameworks atuais de wellness CPG.</p>
+  </div>
+  <div class="hero-meta">
+    <b>Coco Rock Indústria de Alimentos</b>
+    Período: jun/2024 a mai/2026<br/>
+    Audiência: Sócios e direção comercial<br/>
+    Preparado por: Senior Commercial Agent
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="#tese">Tese</a></li>
+    <li><a href="#kpi">KPIs</a></li>
+    <li><a href="#tendencia">Tendência</a></li>
+    <li><a href="#trajetoria">Trajetória</a></li>
+    <li><a href="#concentracao">Concentração</a></li>
+    <li><a href="#midtier">Mid-tier</a></li>
+    <li><a href="#cancel">Cancelamento</a></li>
+    <li><a href="#frame">Strategic frame</a></li>
+    <li><a href="#prov">Provocações</a></li>
+    <li class="toggle" role="group" aria-label="Visão da concentração Oakberry">
+      <button id="btnOakConsol" class="on" title="Inclui lojas OAK por nome + ocultas (regra valores-âncora)">Consolidada 51,4%</button>
+      <button id="btnOakNome" title="Apenas clientes com 'OAK' no nome">Por nome 47,8%</button>
+    </li>
+  </ul>
+</nav>
+
+<!-- ========== TESE ========== -->
+<section id="tese" style="margin-top:36px">
+  <div class="tese">
+    <span class="label">Tese central</span>
+    <h2>O motor de crescimento Coco Rock é real (+100% YoY YTD), mas opera em uma única âncora. O salto para R$ 1MM/mês depende de transformar o "colchão foodservice" em margem para construir marca DTC — sem retirar pé do motor atual.</h2>
+    <p>Em 23 meses a receita acumulou <b>R$ 2,08 MM</b>, com aceleração comprovada (S2/2025 +81% vs S2/2024). Hoje o run-rate é <b>R$ 130 mil/mês</b> — 13% da meta. Oakberry consolidada (rede + lojas ocultas via regra dos valores-âncora) responde por <b>51% do faturamento</b>, e o cluster Mercado Central de BH é o segundo motor (12%). O caminho de 7,7× exige <b>simultaneamente</b>: (i) extrair mais same-door velocity da rede âncora, (ii) replicar o playbook MC-BH para outros mercados centrais, (iii) operacionalizar canal digital próprio para capturar margem de atravessador.</p>
+    <div class="pillars">
+      <div><span>Curto prazo · 0-6m</span><b>Foodservice como colchão. Defender Oakberry, abrir 2 redes franquia adjacentes, monetizar mid-tier MC-BH.</b></div>
+      <div><span>Médio prazo · 6-18m</span><b>Replicar cluster MC-BH em SP/Rio. Lançar e-commerce próprio B2C com cup line e creme. Construção de marca.</b></div>
+      <div><span>Longo prazo · 18-24m</span><b>Marca como ativo principal. Reduzir dependência Oakberry de 51% para &lt;30% sem perder volume absoluto.</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== KPIs ========== -->
+<section id="kpi">
+  <span class="section-tag">1. Painel executivo</span>
+  <h3>Onde estamos <span class="accent">hoje</span></h3>
+  <p class="lede">Visão de uma só lida: receita acumulada, run-rate atual, gap para meta, exposição a um único cliente, e qualidade do faturamento (cancelamento).</p>
+  <div class="grid g-4">
+    <div class="card brand"><h4>Receita 23 meses</h4><div class="big" id="kpi-total">R$ —</div><div class="sub">Total NF · jun/2024–mai/2026</div></div>
+    <div class="card"><h4>Run-rate atual</h4><div class="big" id="kpi-runrate">R$ —</div><div class="sub">Média últimos 3 meses fechados · <span id="kpi-pctmeta" class="delta warn">— da meta</span></div></div>
+    <div class="card"><h4>Crescimento YoY</h4><div class="big" id="kpi-yoy">—</div><div class="sub">YTD jan–abr/2026 vs 2025 · <span class="delta up">aceleração</span></div></div>
+    <div class="card dark"><h4>Concentração Oakberry</h4><div class="big" id="kpi-oak">—%</div><div class="sub">Rede consolidada (lojas + ocultas) · <span class="delta warn">risco estratégico central</span></div></div>
+    <div class="card"><h4>Universo não-OAK</h4><div class="big" id="kpi-naooak">—</div><div class="sub">Receita gerada por <b id="kpi-naooak-cli">—</b> clientes · onde está o futuro</div></div>
+    <div class="card"><h4>Cluster MC-BH</h4><div class="big" id="kpi-mc">—</div><div class="sub">6 clientes do Mercado Central · <span class="delta up">vantagem regional replicável</span></div></div>
+    <div class="card"><h4>Long tail</h4><div class="big" id="kpi-longtail">—%</div><div class="sub" id="kpi-longtail-sub">— clientes &lt; R$ 1k em 23m</div></div>
+    <div class="card"><h4>Taxa de cancelamento</h4><div class="big" id="kpi-canc">—%</div><div class="sub">Média do período · picos sazonais dez/jan</div></div>
+  </div>
+</section>
+
+<!-- ========== TENDÊNCIA / RUN-RATE STACK ========== -->
+<section id="tendencia">
+  <span class="section-tag">2. Tendência de receita</span>
+  <h3>Janelas progressivas — <span class="accent">o motor está acelerando ou desacelerando?</span></h3>
+  <p class="lede">Comparação de janelas curtas vs longas. Se <b>último mês &gt; média 3m &gt; média 6m &gt; média 12m</b>, o crescimento é exponencial e recente. Se inverter em algum ponto, é onde a curva está esfriando.</p>
+
+  <div class="trend-stack">
+    <div class="trend-card" id="trend-1m"><span class="trend-label">Último mês</span><div class="trend-value">—</div><span class="trend-period" id="trend-1m-period"></span></div>
+    <div class="trend-arrow" id="trend-arrow-1-3"></div>
+    <div class="trend-card" id="trend-3m"><span class="trend-label">Média 3 meses</span><div class="trend-value">—</div><span class="trend-period">curto prazo</span></div>
+    <div class="trend-arrow" id="trend-arrow-3-6"></div>
+    <div class="trend-card" id="trend-6m"><span class="trend-label">Média 6 meses</span><div class="trend-value">—</div><span class="trend-period">semestre</span></div>
+    <div class="trend-arrow" id="trend-arrow-6-12"></div>
+    <div class="trend-card" id="trend-12m"><span class="trend-label">Média 12 meses</span><div class="trend-value">—</div><span class="trend-period">ano corrente rolling</span></div>
+    <div class="trend-arrow" id="trend-arrow-12-ant"></div>
+    <div class="trend-card outline" id="trend-12m-ant"><span class="trend-label">12m anteriores</span><div class="trend-value">—</div><span class="trend-period">baseline</span></div>
+  </div>
+
+  <div class="grid g-2" style="margin-top:18px">
+    <div class="card chart-card">
+      <h4 class="title">Faturamento total — últimos 12m vs 12m anteriores</h4>
+      <p class="sub">Comparação dos dois períodos contínuos de 12 meses.</p>
+      <div class="chart-wrap" style="height:240px"><canvas id="chartRolling12"></canvas></div>
+    </div>
+    <div class="card">
+      <h4>Diagnóstico de tendência</h4>
+      <p style="color:var(--gray-600);font-size:13.5px;margin:8px 0 0;line-height:1.55">
+        <b>Crescimento acelerado</b> = último mês acima da média 3m, que está acima da 6m, etc.<br/><br/>
+        <b>Tendência atual:</b> <span id="trend-veredito" style="font-weight:700">—</span><br/>
+        <span id="trend-explicacao" style="display:block;margin-top:8px;color:var(--brand-cafe)">—</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRAJETÓRIA ========== -->
+<section id="trajetoria">
+  <span class="section-tag">3. Trajetória de receita</span>
+  <h3>Aceleração real, gap real para a <span class="accent">meta R$ 1 MM/mês</span></h3>
+  <p class="lede">Decompondo o crescimento: a curva mensal mostra inflexão clara em jun/2025. Mantida a taxa atual de YoY +100%, projeta-se atingir a meta em ~36 meses; o sequenciamento estratégico precisa cortar caminho.</p>
+  <div class="grid g-2-1">
+    <div class="card chart-card">
+      <h4 class="title">Receita mensal (Total NF) — barra · MM3 · meta</h4>
+      <p class="sub">Barras = receita mensal real. Linha laranja = média móvel 3 meses. Linha tracejada = meta R$ 1 MM/mês.</p>
+      <div class="chart-wrap tall"><canvas id="chartReceita"></canvas></div>
+    </div>
+    <div class="card chart-card">
+      <h4 class="title">Comparativo de períodos</h4>
+      <p class="sub">YoY S2 (jun-dez) e YoY YTD (jan-abr) — confirmando aceleração estrutural, não sazonal.</p>
+      <div class="chart-wrap"><canvas id="chartYoY"></canvas></div>
+      <div class="note"><b>Leitura estratégica:</b> dois cortes consecutivos com YoY &gt; +80% sinalizam <i>mudança estrutural</i>, não <i>variação sazonal</i>. Mas o run-rate ainda é 13% da meta — o motor existe, falta escalar.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONCENTRAÇÃO ========== -->
+<section id="concentracao">
+  <span class="section-tag">4. Concentração</span>
+  <h3>Oakberry, lida <span class="accent">corretamente</span></h3>
+  <p class="lede">Sem aplicar a regra dos valores-âncora <code>{310, 171, 481, 232, 403}</code>, a leitura tradicional sub-reporta a exposição. Consolidando lojas com nome + ocultas (Regra A: múltiplo exato | Regra B: combinação linear + filtro de preço unitário OAK R$18-26/un), chega-se ao retrato real.</p>
+  <div class="grid g-2">
+    <div class="card chart-card">
+      <h4 class="title">Quem é Oakberry de verdade?</h4>
+      <p class="sub">Decomposição da concentração total da rede Oakberry.</p>
+      <div class="chart-wrap"><canvas id="chartOakSplit"></canvas></div>
+    </div>
+    <div class="card chart-card">
+      <h4 class="title">Top 30 clientes — quem é OAK e quem é mid-tier real</h4>
+      <p class="sub">Cada barra é um cliente. Laranja = OAK consolidado. Cinza-escuro = mid-tier verdadeiro.</p>
+      <div class="chart-wrap tall"><canvas id="chartTop30"></canvas></div>
+    </div>
+  </div>
+  <div class="note" style="margin-top:18px"><b>Reframe estratégico:</b> A leitura "Oakberry = 51%" é <b>mais alta</b> que a aparente (47,8% se contar só por nome) — o cliente individual #1 fora-OAK não é tão grande quanto parecia. Cada loja Oakberry comporta-se como <i>door</i> independente; perder 5 lojas vale ~R$ 13k/mês. A âncora é resiliente <b>desde que</b> a rede mantenha velocity por loja — métrica que ainda não temos no painel (gap de dado).</div>
+</section>
+
+<!-- ========== MID-TIER ========== -->
+<section id="midtier">
+  <span class="section-tag">5. Mid-tier não-OAK</span>
+  <h3>O cluster <span class="accent">Mercado Central de BH</span> é o "achado" estratégico</h3>
+  <p class="lede">O universo não-OAK soma R$ 1,01 MM (48,6% do faturamento) em 549 clientes. Mas dentro dele, 6 clientes do Mercado Central de BH respondem por <b>R$ 240k (24% do não-OAK · 12% do total)</b>. Isso é uma vantagem competitiva regional já comprovada — playbook replicável para SP, RJ, Salvador, Recife.</p>
+  <div class="grid g-2">
+    <div class="card">
+      <h4>Top 15 mid-tier não-OAK</h4>
+      <p style="color:var(--gray-600);font-size:13px;margin:4px 0 10px">Ordenado por receita acumulada no período.</p>
+      <div style="overflow:auto;max-height:480px"><table id="tblMidtier">
+        <thead><tr><th>#</th><th>Cliente</th><th class="num">Quant.</th><th class="num">Receita</th><th class="num">PU</th><th>Tag</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h4>Cluster Mercado Central de BH</h4>
+      <p style="color:var(--gray-600);font-size:13px;margin:4px 0 10px">Concentração geográfica que sugere fit estrutural com o canal "varejo especializado/empório".</p>
+      <div class="chart-wrap"><canvas id="chartMC"></canvas></div>
+      <table id="tblMC" style="margin-top:14px">
+        <thead><tr><th>Cliente</th><th class="num">Receita</th><th class="num">PU</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div class="note" style="margin-top:12px"><b>Provocação:</b> qual é a estrutura comercial atual nesse cluster? KAM dedicada? Visita semanal? Existe um "broker" local? <b>Se sim, esse modelo é o template</b> que precisa ser empacotado e replicado para Mercadão SP, Adolpho Lisboa (Manaus), Ver-O-Peso (Belém), São Pedro (Niterói), Mercado Modelo (Salvador).</div>
+    </div>
+  </div>
+  <div class="grid g-3" style="margin-top:18px">
+    <div class="card"><h4>Long tail · &lt; R$ 1k</h4><div class="big" id="lt-1k">—</div><div class="sub" id="lt-1k-pct">— do universo não-OAK · candidatos a canal autoatendimento digital</div></div>
+    <div class="card"><h4>Mid-low · R$ 1-5k</h4><div class="big" id="lt-15k">—</div><div class="sub">Clientes a "subir" no funil para mid-tier via SOW expansion</div></div>
+    <div class="card"><h4>Mid-tier ativo · ≥ R$ 10k</h4><div class="big" id="lt-10k">—</div><div class="sub">Conjunto onde KAM tradicional traz ROI mais alto</div></div>
+  </div>
+</section>
+
+<!-- ========== CANCELAMENTO ========== -->
+<section id="cancel">
+  <span class="section-tag">6. Qualidade da receita</span>
+  <h3>Cancelamento sazonal — alerta operacional <span class="accent">previsível</span></h3>
+  <p class="lede">A taxa média (8,2%) carrega picos concentrados em dez/jan — comportamento que precisa virar alerta preditivo no dashboard, não fato consumado a posteriori.</p>
+  <div class="grid g-1-2">
+    <div class="card">
+      <h4>Diagnóstico</h4>
+      <ul style="margin:8px 0 0;padding-left:18px;color:var(--gray-600);font-size:13.5px">
+        <li><b>dez/2024:</b> 50% da receita autorizada cancelada</li>
+        <li><b>jan/2025:</b> &gt;100% (cancelaram retroativos)</li>
+        <li><b>ago/2025:</b> 10,5%</li>
+        <li><b>dez/2025:</b> 14,3%</li>
+        <li><b>2026 YTD:</b> &lt; 2,5% — saudável</li>
+      </ul>
+      <div class="note" style="margin-top:10px"><b>Hipóteses para investigar:</b> (a) overbooking de fim de ano por antecipação Oakberry, (b) ruptura logística período férias, (c) pedidos não-OAK que não fecham antes do recesso. Decompor cancelamento por cliente OAK vs. não-OAK é próximo passo.</div>
+    </div>
+    <div class="card chart-card">
+      <h4 class="title">Receita autorizada vs. cancelada (mensal)</h4>
+      <p class="sub">Barras empilhadas + linha de taxa de cancelamento.</p>
+      <div class="chart-wrap"><canvas id="chartCanc"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STRATEGIC FRAME ========== -->
+<section id="frame">
+  <span class="section-tag">7. Strategic frame</span>
+  <h3>Sequenciamento <span class="accent">foodservice → marca DTC</span></h3>
+  <p class="lede">Traduzindo a missão declarada (foodservice = colchão financeiro · marca = ideal e ativo principal · digital próprio = margem) em horizontes operacionais com métricas que podem ser monitoradas mensalmente.</p>
+  <div class="card">
+    <div class="frame-row">
+      <div class="horizon">Horizon 1<br/><b>0–6 meses</b></div>
+      <div>
+        <h6>Foodservice como gerador de caixa — defender e expandir o motor atual</h6>
+        <p>Mover de "Oakberry-dependente" para "foodservice-multi-rede". O ex-canal-indireto sabe que a métrica que importa não é "novos clientes" — é <b>same-door velocity + new-door pipeline</b>. Abrir 1-2 redes adjacentes (frozen yogurt independentes, açaí, sorveterias premium) para diluir a dependência sem destruir a relação âncora. Em paralelo: extrair SOW expansion no MC-BH (já temos relacionamento, falta espaço de gôndola e nova SKU dentro do mesmo cliente).</p>
+        <span class="metric">KPI: % receita não-OAK / share-of-wallet top 30 mid-tier / new-door count adjacente</span>
+      </div>
+    </div>
+    <div class="frame-row">
+      <div class="horizon">Horizon 2<br/><b>6–18 meses</b></div>
+      <div>
+        <h6>Replicação geográfica + lançamento digital próprio</h6>
+        <p>Empacotar o playbook MC-BH em uma <i>regional roll-out box</i>: produto, preço, embalagem, KAM, tempo médio para R$ 50k/mês. Levar para 3 outros mercados centrais brasileiros. Em paralelo, construir e-commerce próprio com SKU consumer-ready (cup line, creme de coco) como rampa B2C — não para volume imediato, mas para <b>captura de dados primários do consumidor final</b> (a moeda mais valiosa do funcional 2026, segundo NIQ/Mintel).</p>
+        <span class="metric">KPI: receita por cluster regional / GMV e-commerce próprio / CAC vs. LTV digital</span>
+      </div>
+    </div>
+    <div class="frame-row">
+      <div class="horizon">Horizon 3<br/><b>18–24 meses</b></div>
+      <div>
+        <h6>Marca como ativo dominante — diluir dependência sem perder volume</h6>
+        <p>Meta de OAK &lt; 30% do faturamento <b>sem reduzir o volume absoluto</b> Oakberry — apenas crescendo o resto mais rápido. Construção de brand equity que sustenta margem (clean label, origem rastreável, narrativa de wellness), permitindo entrada em varejo premium nacional (Pão de Açúcar Mini, Eataly, redes regionais top como St Marche) e DTC com ticket médio maior que o canal indireto tradicional.</p>
+        <span class="metric">KPI: % faturamento OAK / contribution margin DTC / brand awareness assistido</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROVOCAÇÕES ========== -->
+<section id="prov">
+  <span class="section-tag">8. Provocações + gaps de dado</span>
+  <h3>O que não está nos números — e <span class="accent">precisa estar</span></h3>
+  <p class="lede">Antes de aprofundar qualquer análise, há perguntas que mudam o rumo do diagnóstico. Listadas em ordem de impacto.</p>
+
+  <div class="prov red">
+    <div class="q">Provocação 1 · bloqueante</div>
+    <h5>"Quantidade" no Omie corresponde a quê?</h5>
+    <p>O preço unitário mediano do export é R$ 21/un, mas o preço-tabela 2026 do CRK01 (335g) é R$ 84/un. Hipóteses: (a) Quantidade está em sub-embalagens (100g), (b) há mistura de SKUs pesados em granel (kg) com bulk, (c) preços históricos 2024 ainda dominam o acumulado. <b>Sem fechar essa definição, qualquer leitura de margem unitária e CMV blended (32%) está sob risco.</b></p>
+  </div>
+
+  <div class="prov">
+    <div class="q">Provocação 2</div>
+    <h5>Qual é o split same-door vs new-door dentro de Oakberry?</h5>
+    <p>O YoY +81% no S2 pode ser puxado por (a) novas lojas abrindo (boa notícia operacional, mas vulnerável quando a expansão da rede desacelerar) ou (b) mesma loja comprando mais (boa notícia estratégica, indica fit produto-mercado). Sem essa decomposição, não dá para saber se o playbook OAK é defensável.</p>
+  </div>
+
+  <div class="prov">
+    <div class="q">Provocação 3</div>
+    <h5>Qual é o share-of-wallet em Verdemar e Easy Ice?</h5>
+    <p>Esses dois clientes pesam R$ 67k cada em 23 meses (~R$ 3k/mês). Se SOW Coco Rock é 5%, há 19× de upside dentro do cliente já dentro. <b>Mid-market wellness é onde SOW expansion paga melhor que prospecção</b> (Circana). Quem sabe quanto Verdemar gasta em derivados de coco no total?</p>
+  </div>
+
+  <div class="prov">
+    <div class="q">Provocação 4</div>
+    <h5>Qual é o ticket-médio mensal por loja Oakberry — está estável?</h5>
+    <p>Se cada loja OAK individual está comprando menos a cada mês (mesmo com a rede crescendo), a velocity está caindo e a próxima reunião com a franqueadora muda de tom: deixa de ser "vamos abrir mais lojas" e vira "vamos defender a SKU". <b>Nenhum dashboard de Coco Rock pode ignorar essa métrica.</b></p>
+  </div>
+
+  <div class="prov">
+    <div class="q">Provocação 5</div>
+    <h5>A long tail (<span id="lt-prov-pct">—</span> dos clientes não-OAK &lt; R$ 1k em 23 meses) é "lixo" ou "oportunidade digital"?</h5>
+    <p>Doutrina SEI/IMD diz: long tail high-touch dá prejuízo, mas long tail <i>low-touch + autoatendimento digital</i> captura margem invisível. Esses <span id="lt-prov-n">—</span> clientes pequenos não justificam KAM, justificam <b>e-commerce B2B com pedido mínimo + frete embutido</b>. Encaixa direto na missão de canal digital próprio.</p>
+  </div>
+
+  <div class="prov">
+    <div class="q">Provocação 6</div>
+    <h5>O que o cluster MC-BH tem que dá para empacotar e exportar?</h5>
+    <p>6 clientes geram R$ 240k. Hipóteses: (a) tempo de relação (clientes antigos), (b) presença física da Coco Rock em BH, (c) perfil "hub gastronômico" do MC, (d) mix de SKU específico (PU R$ 23-28 sugere SKUs premium). <b>Se a resposta for (b) ou (d), o playbook é replicável; se for (a), é incumbente.</b></p>
+  </div>
+
+  <div class="prov">
+    <div class="q">Provocação 7 · operacional</div>
+    <h5>Por que dezembro/janeiro cancela 50%+?</h5>
+    <p>Padrão claro nos dois ciclos (24-25 e 25-26). Se o root cause for ruptura logística no recesso, é solucionável; se for overbooking estrutural pela área comercial pressionando metas Q4, é decisão de governança.</p>
+  </div>
+
+  <div class="prov">
+    <div class="q">Provocação 8 · digital</div>
+    <h5>O e-commerce próprio será para o consumidor final ou para o cliente B2B small?</h5>
+    <p>São dois produtos diferentes: (a) DTC consumidor exige cup line, embalagem 100-200g, conteúdo de marca, ROAS, fulfillment B2C; (b) B2B-self-service para long tail exige catálogo, ticket mínimo, NF, parcelamento PJ. <b>Decidir isso antes de investir.</b> O dado atual sugere que o segundo é onde está o caixa de curto prazo; o primeiro é onde está a marca de longo prazo.</p>
+  </div>
+
+</section>
+
+<footer>
+  <span>Coco Rock · Dashboard Comercial · dados gerados em <b id="genStamp">—</b> · página renderizada em <span id="genDate"></span> · stack: Pandas + Chart.js</span>
+  <img class="raio" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FtYWRhXzIiIGRhdGEtbmFtZT0iQ2FtYWRhIDIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEzNDcuODkgMTcxMi42NiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogI2UxZTFlMTsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPGcgaWQ9IkNhbWFkYV8xLTIiIGRhdGEtbmFtZT0iQ2FtYWRhIDEiPgogICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNODAyLjMsMTM2NS42OWwxMy42My4wNGM2LjEsNS42OC0xOC41MywyOC4xMS0xMy42My0uMDRNMTI5Ni41Myw5NTEuMDdsMTEuOTUtMTEuMTItMjQzLjY5LTgwMS42Yy0xMDkuNC0yMy4xNS0yMjkuMzMtMTcuMTgtMzM1LjU5LTUyLjI2LTM5Ljg0LDkuNzMtNjYuODEtMzEuMzYtMTAwLjY0LTIxLjA0LTEyLjksMy45My0xOS4wMSwxMy45OC0zNSwxNS4zNC0xOS41LDEuNjYtMTA3LjAzLTE4LjE0LTExNi4xNS05LjYzbDIyOC44Miw2MzMuOTJMMjcuNDgsODk1LjM2bC03LjE4LDE0LjIzLDEwNjguMTcsODAzLjA3LTIzOC44NC02MzYuNDUsNDQ2LjktMTI1LjEzWk0xMjgxLjY1LDEyODUuOTdjNC42NCwyNS4wNywzNy41OCwxOC4zNSw0My45NCw3LjI2LDE0LjctMjUuNjYtNTEuNjEtNDguNjktNDMuOTQtNy4yNk0xMjM1LjU0LDEzODkuOTdjLTkuMjMsOC4xLTMuMTUsNDYuOTcsMjIuNTUsMjkuNDgsMTguMTYtMTIuMzYtNy42NC00Mi41Ny0yMi41NS0yOS40OE00MjMuODQsMTM1Ny41N2MtMTQuMTksMzIuMTUsMS41Nyw0MC43NywzMS41MSwyOS41bC0uMTktMjEuNS0zMS4zMi03Ljk5Wk0xMzIyLjYyLDQuMjlsNC4zOSwxOC43NiwxOC42Ni0uMTYsMi4yMS0yMi44OC0yNS4yNyw0LjI5Wk0yLjI3LDEzOTkuOTRjLTkuOSwxMy44OCwxNS4xMiwyOS4yOSwyNC43NiwyMi41OCwxOC42OC0xMy4wMS0xMC45Ni00MS45MS0yNC43Ni0yMi41OE0xMjUxLjc1LDQuNzdjLTcuMDUtMTAuMjUtMzkuNzQtMi43MS0yOS40LDE3LjY3LDExLjg3LDIzLjQxLDM4LjgxLTQsMjkuNC0xNy42N000ODguNTYsNjQ4LjM5YzI0Ljg2LTI0LjcyLTEwLjYtNzAuMDQtNDIuNTQtNDUuMDItMjguMzcsMjIuMjEsMTMuNzEsNzMuNjgsNDIuNTQsNDUuMDJNNDcxLjIyLDcxNy43N2wyMi43OC4wNWMyLjktMTQuMjItNS42Ni0xNi40Ni0xNS45MS0yMi42OWwtNi44OCwyMi42M1pNNDA5LjA0LDUwLjAyYy0xLjAzLTI3LjA5LTI4LjA1LTE4LjM0LTIyLjczLDYuODFsMjIuNzMtNi44MVoiLz4KICA8L2c+Cjwvc3ZnPg==" alt="" />
+</footer>
+
+</div>
+
+<script>
+// ============================================================
+// DATA
+// ============================================================
+const DATA_URL = 'dashboard_data.json';
+const BRAND = {
+  green: '#91A93E',         // ORIGINAL
+  greenLight: '#B0C660',
+  greenDark: '#6B7E2D',
+  greenTint: '#e8eccf',
+  gengibre: '#D78600',
+  gengibreLight: '#F3BD74',
+  cacau: '#99381A',
+  cacauLight: '#B2846B',
+  cafe: '#864C24',
+  cafeLight: '#C8A48E',
+  husk: '#E4CCAA',
+  coco: '#D3C6B9',
+  pulp: '#E1D6B6',
+  milk: '#F5F2EC',
+  dark: '#2A2520',
+  // legacy aliases para nao quebrar codigo abaixo
+  orange: '#91A93E',
+  red: '#99381A',
+  gray400: '#9d958a',
+  gray600: '#5a544c'
+};
+const fmtBRL = v => 'R$ ' + (v||0).toLocaleString('pt-BR',{maximumFractionDigits:0});
+const fmtBRLk = v => 'R$ ' + ((v||0)/1000).toLocaleString('pt-BR',{maximumFractionDigits:0}) + 'k';
+const fmtPct = v => (v||0).toLocaleString('pt-BR',{maximumFractionDigits:1}) + '%';
+const fmtNum = v => (v||0).toLocaleString('pt-BR');
+
+Chart.register(ChartDataLabels);
+Chart.defaults.font.family = "'Avenir Next','Avenir LT Std',Avenir,'Helvetica Neue',Ubuntu,system-ui,sans-serif";
+Chart.defaults.color = '#5a544c';
+Chart.defaults.plugins.legend.labels.boxWidth = 12;
+Chart.defaults.plugins.datalabels.display = false;
+
+document.getElementById('genDate').textContent = new Date().toLocaleDateString('pt-BR');
+
+let _D = null;
+function loadData(){
+  // 1. Tenta ler JSON embutido (modo offline / file://)
+  const inline = document.getElementById('dashboard-data');
+  const txt = inline ? inline.textContent.trim() : '';
+  // Se o build script executou, o conteudo comeca com "{"; se nao, o placeholder ainda esta la
+  if(txt && txt.charAt(0) === '{'){
+    try { return Promise.resolve(JSON.parse(txt)); }
+    catch(e){ console.error('JSON inline invalido:', e); }
+  }
+  // 2. Fallback: tenta fetch (modo servidor)
+  return fetch(DATA_URL).then(r => r.json());
+}
+
+loadData().then(D => {
+  _D = D;
+  render(D);
+  document.body.classList.remove('loading');
+  initNavObserver();
+  initOakToggle();
+  // Stamp de geração no footer, se disponível
+  if(D.gerado_em){
+    const stamp = document.getElementById('genStamp');
+    if(stamp) stamp.textContent = D.gerado_em;
+  }
+}).catch(e => {
+  document.body.classList.remove('loading');
+  document.body.insertAdjacentHTML('afterbegin','<div style="padding:20px;background:#f3d8cf;color:#99381A;font-family:monospace;border-bottom:2px solid #99381A"><b>Erro ao carregar dados.</b> Re-execute <code>atualizar_dashboard.bat</code> para regerar o dashboard. Detalhe: '+e.message+'</div>');
+});
+
+function initNavObserver(){
+  const links = document.querySelectorAll('.nav a[href^="#"]');
+  const map = new Map();
+  links.forEach(a=>{const id = a.getAttribute('href').slice(1); const sec = document.getElementById(id); if(sec) map.set(sec, a);});
+  const obs = new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        links.forEach(l=>l.classList.remove('active'));
+        map.get(e.target)?.classList.add('active');
+      }
+    });
+  }, {rootMargin:'-30% 0px -65% 0px'});
+  map.forEach((_,sec)=>obs.observe(sec));
+}
+
+function initOakToggle(){
+  const btnConsol = document.getElementById('btnOakConsol');
+  const btnNome = document.getElementById('btnOakNome');
+  if(!btnConsol || !btnNome || !_D) return;
+  const D = _D;
+  function applyView(view){
+    const isConsol = view === 'consol';
+    btnConsol.classList.toggle('on', isConsol);
+    btnNome.classList.toggle('on', !isConsol);
+    const oakReceita = isConsol
+      ? D.totais.receita_oak
+      : D.oak_split.por_nome_receita;
+    const oakPct = oakReceita / D.totais.receita_total * 100;
+    const naoOakReceita = D.totais.receita_total - oakReceita;
+    document.getElementById('kpi-oak').textContent = oakPct.toLocaleString('pt-BR',{maximumFractionDigits:1}) + '%';
+    document.getElementById('kpi-naooak').textContent = fmtBRLk(naoOakReceita);
+    // Atualiza donut OAK split
+    const ch = Chart.getChart('chartOakSplit');
+    if(ch){
+      if(isConsol){
+        ch.data.labels = [
+          'OAK por nome ('+D.oak_split.por_nome_clientes+' lojas)',
+          'OAK oculto Regra A ('+D.oak_split.oculto_A_clientes+' clientes)',
+          'OAK oculto Regra B ('+D.oak_split.oculto_B_clientes+' clientes)',
+          'NÃO-OAK ('+D.totais.clientes_nao_oak+' clientes)'
+        ];
+        ch.data.datasets[0].data = [D.oak_split.por_nome_receita, D.oak_split.oculto_A_receita, D.oak_split.oculto_B_receita, D.totais.receita_nao_oak];
+        ch.data.datasets[0].backgroundColor = [BRAND.green, BRAND.greenLight, BRAND.gengibreLight, BRAND.cafe];
+      } else {
+        const naoOakSemOcultos = D.totais.receita_total - D.oak_split.por_nome_receita;
+        ch.data.labels = [
+          'OAK por nome ('+D.oak_split.por_nome_clientes+' lojas)',
+          'Demais clientes ('+(D.totais.clientes_unicos - D.oak_split.por_nome_clientes)+')'
+        ];
+        ch.data.datasets[0].data = [D.oak_split.por_nome_receita, naoOakSemOcultos];
+        ch.data.datasets[0].backgroundColor = [BRAND.green, BRAND.cafe];
+      }
+      ch.update();
+    }
+  }
+  btnConsol.addEventListener('click', ()=>applyView('consol'));
+  btnNome.addEventListener('click', ()=>applyView('nome'));
+}
+
+function render(D){
+  // ---------- KPIs ----------
+  document.getElementById('kpi-total').textContent = fmtBRLk(D.totais.receita_total);
+  document.getElementById('kpi-runrate').textContent = fmtBRLk(D.kpis.media_ult3_fechados);
+  document.getElementById('kpi-pctmeta').textContent = fmtPct(D.kpis.pct_meta) + ' da meta R$ 1MM';
+  document.getElementById('kpi-yoy').textContent = '+' + D.kpis.yoy_ytd.toLocaleString('pt-BR',{maximumFractionDigits:1}) + '%';
+  document.getElementById('kpi-oak').textContent = fmtPct(D.totais.pct_oak);
+  document.getElementById('kpi-naooak').textContent = fmtBRLk(D.totais.receita_nao_oak);
+  document.getElementById('kpi-naooak-cli').textContent = D.totais.clientes_nao_oak;
+  document.getElementById('kpi-mc').textContent = fmtBRLk(D.cluster_mc_bh.receita);
+  document.getElementById('kpi-longtail').textContent = fmtPct(D.long_tail.pct_abaixo_1k);
+  document.getElementById('kpi-longtail-sub').textContent = D.long_tail.abaixo_1k + ' clientes < R$ 1k em 23m';
+  document.getElementById('kpi-canc').textContent = fmtPct(D.totais.taxa_canc_media_pct);
+
+  document.getElementById('lt-1k').textContent = D.long_tail.abaixo_1k + ' clientes';
+  document.getElementById('lt-1k-pct').textContent = fmtPct(D.long_tail.pct_abaixo_1k) + ' do universo não-OAK';
+  document.getElementById('lt-15k').textContent = (D.long_tail.abaixo_5k - D.long_tail.abaixo_1k) + ' clientes';
+  document.getElementById('lt-10k').textContent = D.long_tail.acima_10k + ' clientes';
+  // Provocação 5 dinâmica
+  const ltProvPct = document.getElementById('lt-prov-pct');
+  const ltProvN = document.getElementById('lt-prov-n');
+  if(ltProvPct) ltProvPct.textContent = fmtPct(D.long_tail.pct_abaixo_1k);
+  if(ltProvN) ltProvN.textContent = D.long_tail.abaixo_1k;
+
+  // ---------- Trend stack (1m / 3m / 6m / 12m / 12m anterior) ----------
+  if(D.tendencia){
+    const t = D.tendencia;
+    const cards = [
+      {id:'trend-1m', value:t.ult1m_media},
+      {id:'trend-3m', value:t.ult3m_media},
+      {id:'trend-6m', value:t.ult6m_media},
+      {id:'trend-12m', value:t.ult12m_media},
+      {id:'trend-12m-ant', value:t.ant12m_media}
+    ];
+    cards.forEach(c=>{
+      const el = document.getElementById(c.id);
+      if(el) el.querySelector('.trend-value').textContent = fmtBRLk(c.value);
+    });
+    const periodEl = document.getElementById('trend-1m-period');
+    if(periodEl) periodEl.textContent = t.ult1m_label || 'mês fechado';
+    // Setas/diff entre janelas
+    const arrows = [
+      {id:'trend-arrow-1-3', delta:t.delta_1_vs_3},
+      {id:'trend-arrow-3-6', delta:t.delta_3_vs_6},
+      {id:'trend-arrow-6-12', delta:t.delta_6_vs_12},
+      {id:'trend-arrow-12-ant', delta:t.delta_12_vs_ant}
+    ];
+    arrows.forEach(a=>{
+      const el = document.getElementById(a.id);
+      if(!el) return;
+      const v = a.delta || 0;
+      let symbol = '→', cls = 'flat';
+      if(v > 5){ symbol = '▲'; cls = 'up'; }
+      else if(v < -5){ symbol = '▼'; cls = 'down'; }
+      el.textContent = symbol;
+      el.className = 'trend-arrow ' + cls;
+      el.title = (v>0?'+':'') + v.toFixed(1) + '%';
+    });
+    // Diagnóstico textual
+    const sequencia = [t.ult1m_media, t.ult3m_media, t.ult6m_media, t.ult12m_media];
+    const acelerando = sequencia.every((v,i,a)=>i===0 || v <= a[i-1]+1); // tolera ±1
+    const estavel = Math.abs(t.delta_3_vs_6) < 5 && Math.abs(t.delta_6_vs_12) < 5;
+    const desacelerando = sequencia[0] < sequencia[1]*0.95;
+    let veredito = '—', explicacao = '—', vClass='';
+    if(desacelerando){
+      veredito = 'Desaceleração no último mês';
+      explicacao = 'O último mês ('+fmtBRLk(t.ult1m_media)+') ficou abaixo da média 3m ('+fmtBRLk(t.ult3m_media)+'). Investigar antes de tirar conclusões — pode ser timing de pedido ou efeito sazonal pontual.';
+      vClass = 'down';
+    } else if(estavel){
+      veredito = 'Estável em patamar elevado';
+      explicacao = 'Janelas 3m, 6m e 12m próximas entre si. Indica que a receita encontrou um patamar — para chegar à meta R$1MM/mês é preciso uma alavanca nova (canal, produto ou cliente novo de porte).';
+      vClass = 'flat';
+    } else if(acelerando){
+      veredito = 'Crescimento acelerado e recente';
+      explicacao = 'Último mês > média 3m > média 6m > média 12m: o motor está empurrando a curva pra cima. Vantagem ainda fresca; a janela para capitalizar é agora.';
+      vClass = 'up';
+    } else {
+      veredito = 'Crescimento misto';
+      explicacao = 'Algumas janelas estão acima/abaixo do esperado. Veja os deltas (▲/▼) entre os cards para identificar onde a curva está mudando.';
+    }
+    const vEl = document.getElementById('trend-veredito');
+    const eEl = document.getElementById('trend-explicacao');
+    if(vEl){ vEl.textContent = veredito; if(vClass==='up') vEl.style.color='var(--brand-green-dark)'; else if(vClass==='down') vEl.style.color='var(--brand-cacau)'; else vEl.style.color='var(--brand-gengibre)'; }
+    if(eEl) eEl.textContent = explicacao;
+    // Highlight no card mais alto
+    const maxIdx = cards.slice(0,4).reduce((mx,c,i,arr)=>c.value>arr[mx].value?i:mx,0);
+    const tops = ['trend-1m','trend-3m','trend-6m','trend-12m'];
+    document.getElementById(tops[maxIdx])?.classList.add('highlight');
+
+    // Chart rolling 12m vs anterior
+    new Chart(document.getElementById('chartRolling12'),{
+      type:'bar',
+      data:{
+        labels:['12m anteriores','Últimos 12m'],
+        datasets:[{label:'Faturamento', data:[t.total_ant12m, t.total_ult12m], backgroundColor:[BRAND.coco, BRAND.green]}]
+      },
+      options:{
+        indexAxis:'y',responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>fmtBRL(c.parsed.x)}},datalabels:{display:c=>{const v=c?.parsed?.x;return typeof v==='number' && v>0;},color:'#fff',formatter:v=>fmtBRLk(v),font:{weight:'bold',size:13}}},
+        scales:{x:{ticks:{callback:v=>fmtBRLk(v)},grid:{color:'#eef0f2'}},y:{grid:{display:false}}}
+      }
+    });
+  }
+
+  // ---------- Receita mensal ----------
+  const labels = D.mensal.map(m => m.mes);
+  const nf = D.mensal.map(m => m.nf);
+  const mm3 = D.mensal.map(m => m.mm3);
+  new Chart(document.getElementById('chartReceita'), {
+    type:'bar',
+    data:{labels, datasets:[
+      {label:'Receita NF mensal', data:nf, backgroundColor:BRAND.cafe, borderRadius:4, order:2},
+      {label:'Média móvel 3m', data:mm3, type:'line', borderColor:BRAND.green, backgroundColor:BRAND.green, tension:.3, pointRadius:2, borderWidth:3, order:1},
+      {label:'Meta R$ 1MM/mês', data:labels.map(()=>1_000_000), type:'line', borderColor:BRAND.cacau, borderDash:[6,4], borderWidth:2, pointRadius:0, order:0}
+    ]},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom'}, tooltip:{callbacks:{label:c=>c.dataset.label+': '+fmtBRL(c.parsed.y)}}},
+      scales:{y:{ticks:{callback:v=>fmtBRLk(v)}, grid:{color:'#eef0f2'}}, x:{grid:{display:false}}}
+    }
+  });
+
+  // ---------- YoY Bars ----------
+  new Chart(document.getElementById('chartYoY'),{
+    type:'bar',
+    data:{
+      labels:['S2 jun-dez', 'YTD jan-abr'],
+      datasets:[
+        {label:'2024', data:[435467, 0], backgroundColor:BRAND.coco},
+        {label:'2025', data:[789911, 265637], backgroundColor:BRAND.cafe},
+        {label:'2026', data:[0, 532301], backgroundColor:BRAND.green},
+      ]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom'}, datalabels:{display:c=>{const v=c?.parsed?.y; return typeof v==='number' && v>0;},color:'#fff',formatter:v=>fmtBRLk(v),font:{weight:'bold',size:11}}},
+      scales:{y:{ticks:{callback:v=>fmtBRLk(v)},grid:{color:'#eef0f2'}}, x:{grid:{display:false}}}
+    }
+  });
+
+  // ---------- Oak split donut ----------
+  new Chart(document.getElementById('chartOakSplit'),{
+    type:'doughnut',
+    data:{
+      labels:[
+        'OAK por nome ('+D.oak_split.por_nome_clientes+' lojas)',
+        'OAK oculto Regra A ('+D.oak_split.oculto_A_clientes+' clientes)',
+        'OAK oculto Regra B ('+D.oak_split.oculto_B_clientes+' clientes)',
+        'NÃO-OAK ('+D.totais.clientes_nao_oak+' clientes)'
+      ],
+      datasets:[{
+        data:[D.oak_split.por_nome_receita, D.oak_split.oculto_A_receita, D.oak_split.oculto_B_receita, D.totais.receita_nao_oak],
+        backgroundColor:[BRAND.green, BRAND.greenLight, BRAND.gengibreLight, BRAND.cafe],
+        borderWidth:2, borderColor:'#fff'
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,cutout:'62%',
+      plugins:{
+        legend:{position:'bottom',labels:{boxWidth:10,padding:10,font:{size:11}}},
+        tooltip:{callbacks:{label:c=>c.label+': '+fmtBRL(c.parsed)+' ('+(c.parsed/D.totais.receita_total*100).toFixed(1)+'%)'}},
+        datalabels:{display:c=>(c.parsed/D.totais.receita_total)>0.04,color:'#fff',formatter:(v,c)=>(v/D.totais.receita_total*100).toFixed(1)+'%',font:{weight:'bold',size:12}}
+      }
+    }
+  });
+
+  // ---------- Top 30 horizontal bar ----------
+  const top30 = D.top30_concentracao.map(x => ({...x, color: x.origem==='OAK consolidado'?BRAND.green:BRAND.cafe}));
+  new Chart(document.getElementById('chartTop30'),{
+    type:'bar',
+    data:{
+      labels: top30.map(x => x.cliente.length>30?x.cliente.slice(0,30)+'…':x.cliente),
+      datasets:[{
+        label:'Receita',
+        data: top30.map(x => x.receita),
+        backgroundColor: top30.map(x => x.color)
+      }]
+    },
+    options:{
+      indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:c=>fmtBRL(c.parsed.x)+' · '+top30[c.dataIndex].origem}},
+      },
+      scales:{x:{ticks:{callback:v=>fmtBRLk(v)},grid:{color:'#eef0f2'}}, y:{grid:{display:false},ticks:{font:{size:10}}}}
+    }
+  });
+
+  // ---------- Mid-tier table ----------
+  const tbody = document.querySelector('#tblMidtier tbody');
+  D.top15_nao_oak.forEach((c,i) => {
+    const isMC = /Mercado Central|EMPORIUM UNIDADE|Castelo\/BH|Savassi|Minascentro/i.test(c.cliente);
+    const obs = c.observacao;
+    const isInactive = obs && (obs.status === 'one-shot' || obs.status === 'em risco');
+    let tags = '';
+    if(isMC) tags += '<span class="pill midtier-bh">MC-BH</span>';
+    else tags += '<span class="pill midtier">mid-tier</span>';
+    if(obs && obs.status === 'one-shot') tags += ' <span class="obs-pill oneshot" title="'+ (obs.motivo||'') +'">compra única</span>';
+    if(obs && obs.status === 'em risco') tags += ' <span class="obs-pill risk" title="'+ (obs.motivo||'') +'">em risco</span>';
+    const rowClass = [isMC ? 'highlight' : '', isInactive ? 'inactive' : ''].filter(Boolean).join(' ');
+    tbody.insertAdjacentHTML('beforeend',
+      `<tr${rowClass?` class="${rowClass}"`:''}><td>${i+1}</td><td>${c.cliente}</td><td class="num">${fmtNum(c.Quantidade)}</td><td class="num">${fmtBRL(c.receita)}</td><td class="num">R$ ${(c.preco_un||0).toLocaleString('pt-BR',{maximumFractionDigits:2})}</td><td>${tags}</td></tr>`);
+  });
+
+  // ---------- Inativos callout (one-shot / em risco) ----------
+  if(D.inativos && D.inativos.detalhe && D.inativos.detalhe.length > 0){
+    const items = D.inativos.detalhe.map(d => {
+      const obs = d.observacao || {};
+      return `<li><strong>${d.cliente}</strong> (${fmtBRL(d.receita)}) — ${obs.motivo || ''}<br/><span style="color:var(--brand-cacau);font-style:italic">→ ${obs.acao || ''}</span></li>`;
+    }).join('');
+    const callout = `<div class="inativos-callout">
+      <h5>⚠ Atenção: ${D.inativos.count} clientes mid-tier do Top 15 NÃO devem ser contados como motor recorrente (${fmtPct(D.inativos.pct_total)} do faturamento total)</h5>
+      <ul>${items}</ul>
+    </div>`;
+    document.querySelector('#midtier .grid.g-2')?.insertAdjacentHTML('afterend', callout);
+  }
+
+  // ---------- MC-BH chart + table ----------
+  const mc = D.cluster_mc_bh.detalhe;
+  new Chart(document.getElementById('chartMC'),{
+    type:'bar',
+    data:{
+      labels: mc.map(x => x.cliente.length>22?x.cliente.slice(0,22)+'…':x.cliente),
+      datasets:[{label:'Receita', data: mc.map(x=>x.receita), backgroundColor: BRAND.gengibre}]
+    },
+    options:{
+      indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>fmtBRL(c.parsed.x)}}},
+      scales:{x:{ticks:{callback:v=>fmtBRLk(v)},grid:{color:'#eef0f2'}}, y:{grid:{display:false},ticks:{font:{size:11}}}}
+    }
+  });
+  const mcBody = document.querySelector('#tblMC tbody');
+  mc.forEach(c => {
+    mcBody.insertAdjacentHTML('beforeend',
+      `<tr><td>${c.cliente}</td><td class="num">${fmtBRL(c.receita)}</td><td class="num">R$ ${(c.preco_un||0).toLocaleString('pt-BR',{maximumFractionDigits:2})}</td></tr>`);
+  });
+
+  // ---------- Cancelamento ----------
+  const cancM = D.mensal.map(m=>m.canc);
+  const taxa = D.mensal.map(m=>m.taxa_canc);
+  new Chart(document.getElementById('chartCanc'),{
+    data:{
+      labels,
+      datasets:[
+        {type:'bar',label:'Receita autorizada', data:nf, backgroundColor:BRAND.green, stack:'a'},
+        {type:'bar',label:'Cancelado', data:cancM, backgroundColor:BRAND.cacau, stack:'b'},
+        {type:'line',label:'Taxa de cancelamento (%)', data:taxa, borderColor:BRAND.gengibre, backgroundColor:BRAND.gengibre,yAxisID:'y2', tension:.3, pointRadius:2}
+      ]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom'}, tooltip:{callbacks:{label:c=>c.dataset.label+': '+(c.dataset.yAxisID==='y2'?(c.parsed.y||0).toFixed(1)+'%':fmtBRL(c.parsed.y))}}},
+      scales:{
+        y:{ticks:{callback:v=>fmtBRLk(v)},grid:{color:'#eef0f2'}},
+        y2:{position:'right',ticks:{callback:v=>v+'%'},grid:{display:false}, max:120},
+        x:{grid:{display:false}}
+      }
+    }
+  });
+}
+</script>
+</body>
+</html>
